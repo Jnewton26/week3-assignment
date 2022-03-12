@@ -92,15 +92,53 @@ let listOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; {
         return false(listOfNumbers.join('').length > 100);
     } console.log(listOfNumbers.join('').length);
 }
-    //Write a function that takes an array of numbers and returns the average of all the elements in the array.
+//Write a function that takes an array of numbers and returns the average of all the elements in the array.
 
 
-    // • Write a function that takes two arrays of numbers and returns true
-    // if the average of the elements in the first array is greater than the average of the elements in the second array.
+// • Write a function that takes two arrays of numbers and returns true
+// • Write a function that takes two arrays of numbers and returns true
+// if the average of the elements in the first array is greater than the average of the elements in the second array.
+
+for (var i = 0; i <= arrayOne.length; i++) {
+    if (arrayOne[i] !== arrayTwo[i]) {
+        return false;
+    }
+}
+return true;
 
 
-    // • Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket,
-    // and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
+// Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket,
+// and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
+
+var moneyInPocket = 10.50;
+
+if (moneyInPocket < 7) {
+    console.log('Will buy Drink');
+} else if (moneyInPocket < 4) {
+    console.log('Will buy Drink');
+} else {
+    console.log('is Hot Outside');
+}
 
 
-    // • Create a function of your own that solves a problem. In comments, write what the function does and why you created it
+
+// • Create a function of your own that solves a problem. In comments, write what the function does and why you created it
+
+var grade = 'A';
+
+switch (grade) {
+    case 'A':
+        console.log('90-100');
+        break;
+    case 'B':
+        console.log('80-89');
+        break;
+    case 'C':
+        console.log('70-79');
+        break;
+    default:
+        console.log('0-69');
+}
+
+
+// it tells you what's the grade.
